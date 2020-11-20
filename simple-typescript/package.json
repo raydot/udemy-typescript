@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "DK follwing Udemy's Typescript course",
   "main": "index.js",
+  "repository": "https://github.com/raydot/udemy-typescript",
   "scripts": {
     "build": "tsc",
     "dev": "npx concurrently -k -n COMPILER,NODEMON -c yellow,blue \"tsc -w\" \"nodemon -w dist -q dist/index.js\""
